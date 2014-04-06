@@ -1,0 +1,29 @@
+{
+   "name": "mercury-node",
+   "version": "0.0.1",
+   "main": "mercury",
+   "description": "A node.js interface to the Mercury language",
+   "keywords": [
+       "mercury",
+       "binding"
+   ],
+   "author": {
+       "name": "Sebastian Godelet",
+       "email": "sebastian.godelet+github@gmail.com"
+   }, 
+   "license": "LGPL",
+   "repository": {
+       "type": "git",
+       "url": "git@github.com:sebgod/mercury-node.git" 
+   }, 
+   "directories": {
+       "src": "src",
+       "tests": "tests"
+   },
+   "engines": {
+       "node": ">=0.6.0"
+   },
+   "scripts": {
+       "test": "node tests/fib.js"
+   }
+}
