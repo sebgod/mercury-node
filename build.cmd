@@ -1,6 +1,6 @@
 @pushd %~dp0
-node-gyp configure build
-@if not exists mercury.node (
+@call node-gyp configure build
+@if not exist "%~dp0\mercury.node" (
 	mklink mercury.node build\Release\mercury.node
 )
 @popd
