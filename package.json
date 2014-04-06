@@ -21,9 +21,10 @@
        "tests": "tests"
    },
    "engines": {
-       "node": ">=0.6.0"
+       "node": ">=0.8.0"
    },
    "scripts": {
-       "test": "node tests/fib.js"
+       "install": "node-gyp configure build",
+       "test": "node tests/init.js"
    }
 }
