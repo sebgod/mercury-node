@@ -1,7 +1,7 @@
 {
     'targets': [
         {
-            'target_name': 'libmercury',
+            'target_name': 'mercury',
             'sources': [ 'src/libmercury.cc' ],
             'include_dirs': [""],
             'conditions': [
