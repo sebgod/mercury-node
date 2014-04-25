@@ -1,5 +1,5 @@
 {
-   "name": "mercury-node",
+   "name": "mercury-binding",
    "version": "0.1.2",
    "main": "./mercury",
    "description": "A node.js interface to the Mercury language",
@@ -15,7 +15,7 @@
    "repository": {
        "type": "git",
        "url": "git://github.com/sebgod/mercury-node.git" 
-   }, 
+   },
    "directories": {
        "src": "src",
        "tests": "tests"
