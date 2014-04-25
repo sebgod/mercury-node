@@ -28,7 +28,6 @@
        "url": "http://www.gnu.org/licenses/lgpl-2.1.html"
    },
    "scripts": {
-       "install": "node-gyp configure build",
        "test": "node tests/init.js"
    }
 }
