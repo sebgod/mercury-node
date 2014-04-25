@@ -1,6 +1,6 @@
 {
    "name": "mercury-node",
-   "version": "0.0.2",
+   "version": "0.1.2",
    "main": "./mercury",
    "description": "A node.js interface to the Mercury language",
    "keywords": [
