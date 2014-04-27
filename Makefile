@@ -1,9 +1,13 @@
 NPM := npm
 
+.PHONY: all
+all: install test
+ 
 .PHONY: install
 install:
 	$(NPM) install
 
-.PHONY: all
-all: install
- 
+.PHONY: test
+test:
+	$(NPM) test
+
