@@ -25,6 +25,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #include <node.h>
 #include <string.h>
 #include <stdlib.h>
+#include "mercury_binding_int.h"
+#include "mercury_binding.mh"
 
 using namespace v8;
 using namespace node;
@@ -38,12 +40,17 @@ using namespace node;
 #endif
 
 Handle<Value> Initialise(const Arguments& args) {
+	void *stack_bottom;
 	int rval;
 	HandleScope scope;
 	/* initialise Mercury */
+	mercury_init(0, nullptr, &stack_bottom);
 	rval = 0;
 	return scope.Close(Number::New(rval));
 }
+
+// TODO: Handle<Value> Finalise 
+// return mercury_terminate();
 
 extern "C" void init(Handle<Object> target) {
 	target->Set(String::NewSymbol("initialise"),
