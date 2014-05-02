@@ -23,6 +23,9 @@
    "engines": {
        "node": ">=0.8.0"
    },
+   "dependencies": {
+       "java": ">=0.3.2"
+   },
    "licenses": {
        "type": "LGPLv2.1",
        "url": "http://www.gnu.org/licenses/lgpl-2.1.html"
