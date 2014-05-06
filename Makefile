@@ -1,7 +1,7 @@
 NPM := npm
 
 .PHONY: all
-all: install test
+all: test
  
 .PHONY: install
 install:
@@ -12,6 +12,6 @@ dev:
 	$(NPM) install
 
 .PHONY: test
-test:
+test: dev
 	$(NPM) test
 
