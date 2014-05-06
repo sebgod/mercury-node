@@ -34,6 +34,6 @@
        "url": "http://www.gnu.org/licenses/lgpl-2.1.html"
    },
    "scripts": {
-       "test": "cd test && mocha --reporter spec --ui bdd *.js"
+       "test": "mocha"
    }
 }

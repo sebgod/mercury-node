@@ -2,7 +2,7 @@
 
 var assert = require("assert");
 var java = require("java");
-java.classpath.push("./src");
+java.classpath.push("test/src");
 
 var MyClass = java.import("com.nearinfinity.nodeJava.MyClass");
 
