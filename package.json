@@ -1,39 +1,39 @@
 {
-   "name": "mercury-binding",
-   "version": "0.2.1",
-   "main": "./mercury",
-   "description": "A node.js interface to the Mercury language",
-   "keywords": [
-       "mercury",
-       "binding"
-   ],
-   "author": {
-       "name": "Sebastian Godelet",
-       "email": "sebastian.godelet+github@gmail.com"
-   }, 
-   "license": "LGPL",
-   "repository": {
-       "type": "git",
-       "url": "git://github.com/sebgod/mercury-node.git" 
-   },
-   "directories": {
-       "src": "src",
-       "tests": "tests"
-   },
-   "engines": {
-       "node": ">=0.10.0"
-   },
-   "dependencies": {
-       "java": ">=0.3.0"
-   },
-   "devDependencies": {
-	"mocha": ">=1.18.0" 
-   },
-   "licenses": {
-       "type": "LGPLv2.1",
-       "url": "http://www.gnu.org/licenses/lgpl-2.1.html"
-   },
-   "scripts": {
-       "test": "mocha"
-   }
+  "name": "mercury-binding",
+  "version": "0.2.2",
+  "main": "./mercury",
+  "description": "A node.js interface to the Mercury language",
+  "keywords": [
+    "mercury",
+    "binding"
+  ],
+  "author": {
+    "name": "Sebastian Godelet",
+    "email": "sebastian.godelet+github@gmail.com"
+  },
+  "license": "LGPL",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sebgod/mercury-node.git"
+  },
+  "directories": {
+    "src": "src",
+    "tests": "tests"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "java": ">=0.3.0"
+  },
+  "devDependencies": {
+    "mocha": ">=1.18.0"
+  },
+  "licenses": {
+    "type": "LGPLv2.1",
+    "url": "http://www.gnu.org/licenses/lgpl-2.1.html"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
