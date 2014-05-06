@@ -1,3 +1,5 @@
+"use strict";
+
 var assert = require("assert");
 var java = require("java");
 java.classpath.push("./src");
