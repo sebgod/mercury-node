@@ -15,3 +15,6 @@ dev:
 test: dev
 	$(NPM) test
 
+.PHONY: publish
+publish: dev
+	$(NPM) publish
