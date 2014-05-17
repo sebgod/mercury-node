@@ -17,7 +17,7 @@ compile-test: dev
 	cd test/src && $(JAVAC) com/nearinfinity/nodeJava/MyClass.java
 
 .PHONY: test
-test: compile-test
+test: dev
 	$(NPM) test
 
 .PHONY: publish
